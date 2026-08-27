@@ -1,0 +1,39 @@
+# Large raw data
+netflow_day-*.bz2
+
+# Local generated files
+results/
+output/
+outputs/
+artifacts/
+tmp/
+documents/
+supplementary.tex
+references.bib
+
+# Python files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Old backups
+*.zip
+# Installed packages
+node_modules
+
+# Reference documents
+Readings/
+*.pdf
+*.pptx
+
+# Old generated analysis files
+flagged_egonet_flows.csv
+oddball_results*.csv
+per_service*.csv
